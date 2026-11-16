@@ -14,7 +14,7 @@ Rewritten for current python-pptx / Jinja2.
 ## Install
 
 ```bash
-hermes skills tap add <owner>/<this-repo>
+hermes skills tap add ninhpn1337/hermes-skill-pptx-templater
 hermes skills install pptx-templater
 ```
 
