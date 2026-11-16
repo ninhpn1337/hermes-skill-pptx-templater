@@ -1,0 +1,21 @@
+{
+  "globals": {"company": "Acme", "quarter": "Q4 2026"},
+  "slides": [
+    {"layout": "Title Slide",
+     "placeholders": {"title": "{{ company }} quarterly report", "subtitle": "{{ quarter }}"}},
+    {"layout": "Title and Content",
+     "placeholders": {"title": "Highlights",
+                      "body": ["Revenue +12%", ["EU +20%", "US +5%"], "Churn -2%"]}},
+    {"layout": "Two Content",
+     "placeholders": {"title": "Wins / Risks",
+                      "body": ["3 new enterprise clients", "NPS 61"],
+                      "body2": ["Hiring delays", "FX exposure"]}},
+    {"layout": "Title and Content",
+     "placeholders": {"title": "Sales by region",
+                      "body": {"table": [["Region", "Sales", "Growth"],
+                                         ["EU", "1.2M", "+20%"],
+                                         ["US", "0.9M", "+5%"]]}}},
+    {"layout": "Section Header",
+     "placeholders": {"title": "Thank you", "body": "Questions?"}}
+  ]
+}
